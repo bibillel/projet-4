@@ -114,10 +114,14 @@
       }
     },
     openLightBox(element, lightboxId) {
+      const modalElement = document.getElementById(lightboxId);
+
       $(`#${lightboxId}`)
         .find(".lightboxImage")
         .attr("src", element.attr("src"));
-      $(`#${lightboxId}`).modal("toggle");
+
+      const modalInstance = bootstrap.Modal.getOrCreateInstance(modalElement);
+      modalInstance.toggle();
     },
     prevImage() {
       let activeImage = null;
