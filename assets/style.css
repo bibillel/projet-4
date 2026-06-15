@@ -71,9 +71,11 @@ body {
 	width: 100%;
 
 }
-#about-me {
-	flex: 2
+#about-me > p:not(.about-me__introduction) {
+	width: 80%;
+	font-size: 14px;
 }
+
 .about-me__title {
 	margin-top: 1em;
 	margin-bottom: 60px;
