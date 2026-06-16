@@ -60,12 +60,12 @@ body {
 }
 
 #about-me {
-	flex: 1.2;
+	flex: 1.4;
 	margin: 0 20px;
 }
 
 .picture {
-	flex: 0.8;
+	flex: 0.6;
 	margin: 0 20px;
 	z-index: 0;
 }
