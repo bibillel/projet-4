@@ -60,12 +60,12 @@ body {
 }
 
 #about-me {
-	flex: 1;
+	flex: 1.2;
 	margin: 0 20px;
 }
 
 .picture {
-	flex: 1;
+	flex: 0.8;
 	margin: 0 20px;
 	z-index: 0;
 }
@@ -86,28 +86,28 @@ body {
 }
 
 .about-me__title {
-	font-size: 30px;
-	font-weight: 700;
-	line-height: 1.2;
-	margin-top: 1em;
-	margin-bottom: 60px;
-	display: block;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 1em;
+    margin-bottom: 60px;
+    display: block;
 }
 
 .about-me__introduction {
-	font-family: 'Spectral';
-	font-weight: 800;
-	font-style: italic;
-	font-size: 0.875rem;
-	line-height: 1.2;
-	width: 60%;
-	margin-top: 0;
-	margin-bottom: 0.5rem;
+    font-family: 'Spectral';
+    font-weight: 800;
+    font-style: italic;
+    font-size: 1rem;
+    line-height: 1.2;
+    width: 60%;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
 }
 
 #about-me p:not(.about-me__introduction) {
-	width: 80%;
-	font-size: 14px;
+    width: 80%;
+    font-size: 15px;
 }
 
 /* ========================= GALLERY ========================= */
@@ -319,7 +319,7 @@ input[type="submit"] {
 
 @media all and (max-width: 1180px) {
 	.picture {
-		flex: 2;
+		flex: 1.5;
 	}
 
 	#about,
